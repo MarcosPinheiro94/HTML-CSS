@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google fonts</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap'); /*Primeiro voce importa e depois você coloca no font-family*//* E tem que colocar depois o style, pois são propriedades*/
+        @font-face {
+            font-family:grooven ;/*coloque um nome qualquer para depois adiciona-la no fonte-family*/
+            src: url(grooven/Grooven-Outline.otf) format('opentype'), url(grooven/Grooven-Shine.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*Tipos de formatos de letras
+                Opentype(otf)
+                truetype(ttf)
+                embeded-pentype
+                trutype-att (apple advenced Typography)
+                svg
+                */
+        }
+
+        body{
+            font-family: 'grooven', cursive;
+        }
+        h1{
+            font-family: 'Princess Sofia', cursive;
+            font-size: 3em;
+            text-align: center;
+        }
+        p{
+        text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est a iusto modi ab eius commodi facilis suscipit doloribus unde, similique vel pariatur impedit explicabo ratione qui repellendus, illo, nostrum sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nesciunt pariatur unde aliquid laborum iste reiciendis earum. Est, minima accusamus dolore facilis qui alias accusantium sunt eum error culpa possimus!</p>
+    <a href="fonte02.html"> Ir para a pagina 2</a>
+    <p></p>
+    <a href="pagina3.html">ir para pagina 3</a>
+</html>

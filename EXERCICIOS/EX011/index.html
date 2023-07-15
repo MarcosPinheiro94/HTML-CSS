@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu nevegador.</p>
+    
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/foto-p.png" type="image/png"> <!--Foto pequena--> <!--largura-->
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png"><!--Foto foto media--> <!--largura-->
+        <img src="imagens/foto-g.png" alt="Imagem Flexível"><!--Foto grande--> <!--largura-->
+    </picture>
+    <h1>Vamso aprender a reproduzir áudios em HTML 5</h1>
+    <audio src="midia/Cameras-ALBIS.mp3" controls autoplay></audio> <!--Comando para adicionar música e toca-la.-->
+    <!--MP3, wav,OGG -->
+    <audio>
+        <source src="midia/Cameras-ALBIS.mp3" type="audio/mpeg">
+        <source src="midia/Cameras-ALBIS.mp3" type="audio/ogg">
+        <source src="midia/Cameras-ALBIS.mp3" type="audio/wav"> <!-- Arquivos muito grandes-->
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. <a href="midia/Cameras-ALBIS.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

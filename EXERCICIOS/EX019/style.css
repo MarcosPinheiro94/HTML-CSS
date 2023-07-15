@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #d6fde9;
+}
+
+h1{color: #1E402F
+}
+
+#principal{ /*Tudo que é Id no HTML no CSS é #, e só pode um elemento por por HTML*/
+            /*Tudo que é class no HTML no CSS é *, e pode haver vários class na mesma linha HTML /
+            /*Id sobrepoem o class*/
+    background-color: #3C805E;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px black;
+}
+
+h2{
+    color: #3C805e;
+}
+
+.basico{
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario {
+ color: yellow;
+}
+
+.avançado {
+    color: red;
+}
+.destaque{
+    background-color: rgba(255, 255, 0, 0.471);
+}
