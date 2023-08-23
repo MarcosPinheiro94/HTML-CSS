@@ -18,12 +18,16 @@
         td {
             border:  1px solid black;
             text-align: center;
-            vertical-align: top; /*Alinhamento vertical*/
+            vertical-align: middle; /*Alinhamento vertical*/
             
         }
 
         tr.linha {
             background-color: gray;
+        }
+
+        .numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -38,22 +42,22 @@
     -->
     <table>
         <tr> <!-- Table row/  primeira linha--> 
-            <td>A1
+            <td class="numero">A1
             <td>B1
             <td>C1
         </tr>
         <tr class="linha"> <!-- Table row/  segunda linha--> 
-            <td>A2</td>
+            <td class="numero">A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr > <!-- Table row/  terceora linha--> 
-            <td>A3</td>
+            <td class="numero">A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
         <tr tr class="linha"> <!-- Table row/  quarta linha--> 
-            <td>A4</td>
+            <td class="numero">A4</td>
             <td>B4</td>
             <td>C4</td>
         </tr>
